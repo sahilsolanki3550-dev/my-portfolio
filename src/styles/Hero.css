@@ -1,0 +1,41 @@
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.btn-secondary {
+  background-color: #28a745;
+  margin-left: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btn-secondary {
+    margin-left: 0;
+  }
+}

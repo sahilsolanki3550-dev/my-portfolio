@@ -1,0 +1,8 @@
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about li {
+  margin-bottom: 10px;
+}

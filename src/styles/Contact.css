@@ -1,0 +1,67 @@
+.contact-section {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.contact-subtitle {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Circle container */
+.contact-circles {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Circle base */
+.contact-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.contact-circle:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Individual colors */
+.email {
+  background-color: #ea4335;
+}
+
+.linkedin {
+  background-color: #0a66c2;
+}
+
+.github {
+  background-color: #24292e;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .contact-circle {
+    width: 60px;
+    height: 60px;
+    font-size: 1.1rem;
+  }
+}

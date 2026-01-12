@@ -1,0 +1,63 @@
+.experience {
+  padding: 80px 20px;
+}
+
+.experience-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.experience-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.experience-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.duration {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.company {
+  margin: 8px 0 15px;
+  font-weight: 500;
+  color: #4f46e5;
+}
+
+.experience-card ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.experience-card li {
+  margin-bottom: 8px;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
